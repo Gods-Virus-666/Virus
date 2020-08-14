@@ -6,4 +6,4 @@ website = input("Enter website to crawl: ")
 
 source_code = requests.get(website)
 
-print source_code.txt
+print(source_code.txt)
