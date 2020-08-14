@@ -1,2 +1,2 @@
-# Virus
-print('hello world's)
+#Virus
+website = input()
