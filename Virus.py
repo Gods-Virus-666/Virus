@@ -1,2 +1,2 @@
 #Virus
-website = input()
+website = input("Enter website to crawl: ")
