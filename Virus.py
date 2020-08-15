@@ -13,7 +13,7 @@ f.close()
 f = open('source_code.txt', 'r')
 
 if f.mode == 'r':
- contents = f.read
+ contents = f.read()
 
 contents_list = contents.split()
 
