@@ -10,7 +10,9 @@ f = open('source_code.txt', 'w')
 f.write(f"{r.text}")
 f.close()
 
-source_code = open('source_code.txt', 'r')
+f = open('source_code.txt', 'r')
+
+source_code = f
 
 print(f"{source_code}")
 
