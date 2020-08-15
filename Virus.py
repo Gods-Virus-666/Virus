@@ -10,8 +10,4 @@ f = open('source_code.txt', 'w')
 f.write(f"{r.text}")
 f.close()
 
-f = open('source_code.txt', 'r')
-
-print(f"{f}")
-
 print("Complete")
