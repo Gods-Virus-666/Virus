@@ -9,3 +9,9 @@ r = requests.get(website)
 f = open('source_code.txt', 'w')
 f.write(f"{r.text}")
 f.close()
+
+source_code = open('source_code.txt', 'r')
+
+print(source_code)
+
+print("Complete")
