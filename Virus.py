@@ -12,6 +12,6 @@ f.close()
 
 source_code = open('source_code.txt', 'r')
 
-print(source_code)
+print(f"{source_code}")
 
 print("Complete")
