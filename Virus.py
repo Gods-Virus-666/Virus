@@ -15,7 +15,11 @@ f = open('source_code.txt', 'r')
 if f.mode == 'r':
  contents = f.read()
 
-contents_list = contents.split()
-contents_list.sort()
-print(contents_list.sort())
+contents_split = contents.split()
+
+f = open('contents_list.txt', 'w')
+f.write(f"{contents_split}")
+f.close()
+
+print(contents_split)
 print("Complete")
