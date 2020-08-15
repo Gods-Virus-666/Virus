@@ -16,6 +16,6 @@ if f.mode == 'r':
  contents = f.read()
 
 contents_list = contents.split()
-
-print(contents_list)
+contents_list.sort()
+print(contents_list.sort())
 print("Complete")
