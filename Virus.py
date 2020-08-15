@@ -11,5 +11,5 @@ r = requests.get(website)
 print(r.text)
 
 f = open('source_code.txt', 'w')
-f.write(print(f{r.text})
+f.write(print(f"{r.text}")
 f.close()
