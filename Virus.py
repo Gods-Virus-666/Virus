@@ -17,9 +17,5 @@ if f.mode == 'r':
 
 contents_list = contents.split()
 
-f = open('contents_list.txt', 'w')
-f.write(f"{contents.split()}")
-f.close()
-
 print(contents_list)
 print("Complete")
