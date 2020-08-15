@@ -15,7 +15,7 @@ f = open('source_code.txt', 'r')
 if f.mode == 'r':
  contents = f.read
 
-contents_list = contents.spilt()
+contents_list = contents.split()
 
 f = open('contents_list.txt', 'w')
 f.write(f"{contents.split()}")
