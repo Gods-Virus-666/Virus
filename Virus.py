@@ -24,5 +24,5 @@ f.close()
 
 contents_list2 = f"{contents_list}"
 
-print(contents_list2.startswith("http"))
+print(contents_list2.startswith("src="))
 print("Complete")
