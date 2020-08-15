@@ -17,6 +17,6 @@ if f.mode == 'r':
 
 contents_list = contents.split()
 
-print(contents_list.count(http))
+print(contents_list.count("http"))
 
 print("Complete")
