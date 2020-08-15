@@ -11,4 +11,4 @@ print(r.text)
 
 f = open('source_code.txt', 'w')
 f.write(print(f"{r.text}")
-f.close('source_code.txt')
+f.close()
