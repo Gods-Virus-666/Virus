@@ -22,7 +22,7 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_list}")
 f.close()
 
-contents_list2 = print(f"{contents_list}")
+contents_list2 = f"{contents_list}"
 
 print(contents_list2.startswith("\"http"))
 print("Complete")
