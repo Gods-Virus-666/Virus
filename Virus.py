@@ -15,14 +15,12 @@ f = open('source_code.txt', 'r')
 if f.mode == 'r':
  contents = f.read()
 
-contents_list = contents.split()
-
+a = contents.split()
+b = a.sort()
 
 f = open('contents_list.txt', 'w')
-f.write(f"{contents_list}")
+f.write(f"{b}")
 f.close()
 
-contents_list2 = f"{contents_list}"
 
-print(contents_list2.startswith("'src="))
 print("Complete")
