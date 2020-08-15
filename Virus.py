@@ -17,6 +17,12 @@ if f.mode == 'r':
 
 contents_list = contents.split()
 
-print(sum(contents_list.startswith("http")))
+
+f = open('contents_list.txt', 'w')
+f.write(f"{contents_list}")
+f.close()
+
+
+print(content_list)
 
 print("Complete")
