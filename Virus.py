@@ -23,5 +23,5 @@ f.write(f"{contents_list}")
 f.close()
 
 
-print(contents_list.startswith("http))
+print(contents_list.startswith(\"http))
 print("Complete")
