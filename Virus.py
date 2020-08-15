@@ -23,6 +23,6 @@ f.write(f"{contents_list}")
 f.close()
 
 
-print(content_list)
+print(contents_list)
 
 print("Complete")
