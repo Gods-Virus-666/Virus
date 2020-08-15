@@ -15,6 +15,8 @@ f = open('source_code.txt', 'r')
 if f.mode == 'r':
  contents = f.read()
 
-print(contents)
+contents_list = contents.split()
+
+print(contents_list)
 
 print("Complete")
