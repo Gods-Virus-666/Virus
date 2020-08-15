@@ -17,6 +17,6 @@ if f.mode == 'r':
 
 contents_list = contents.split()
 
-print(sum(contents_list.startswith("http"))
+print(sum(contents_list.startswith("http")))
 
 print("Complete")
