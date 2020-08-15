@@ -1,4 +1,3 @@
-#Virus
 
 import requests
 
@@ -12,4 +11,4 @@ print(r.text)
 
 f = open('source_code.txt', 'w')
 f.write(print(f"{r.text}")
-f.close()
+f.close('source_code.txt')
