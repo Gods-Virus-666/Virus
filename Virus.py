@@ -10,10 +10,10 @@ f = open('source_code.txt', 'w')
 f.write(f"{r.text}")
 f.close()
 
-def main():
-  f = open('source_code.txt', 'r')
-    if f.mode == 'r':
-       contents = f.read()
+f = open('source_code.txt', 'r')
+
+if f.mode == 'r':
+ contents = f.read()
 
 print(contents)
 
