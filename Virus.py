@@ -15,12 +15,11 @@ f = open('source_code.txt', 'r')
 if f.mode == 'r':
  contents = f.read()
 
-contents_split = contents.split()
-
+contents_split = contents.split("'src=")
 f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
 
-print(sorted(f"contents_split", key=str.lower ))
+print(contents_split)
 
 print("Complete")
