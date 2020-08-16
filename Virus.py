@@ -21,6 +21,6 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
 
-sorted(f"contents_split", key=str.lower )
+print(sorted(f"contents_split", key=str.lower ))
 
 print("Complete")
