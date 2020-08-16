@@ -18,7 +18,7 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
 
-contents_split.sort()
+contents_split.reverse()
 
 print(contents_split)
 
