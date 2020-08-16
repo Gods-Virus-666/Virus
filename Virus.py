@@ -33,5 +33,5 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_split.sort}")
 f.close()
  
-print(?)
+print("")
 print("Complete")
