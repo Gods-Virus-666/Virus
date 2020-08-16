@@ -21,7 +21,7 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
 
-sam = contents_split.sort()
+sam = contents_split.sorted()
 
 print(sam)
 
