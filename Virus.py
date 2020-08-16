@@ -22,16 +22,6 @@ f.close()
 f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
-
-
-f = open('contents_list.txt', 'r')
-
-if f.mode == 'r':
-  contents_split.sort()
-
-f = open('contents_list.txt', 'w')
-f.write(f"{contents_split.sort}")
-f.close()
  
 print("")
 print("Complete")
