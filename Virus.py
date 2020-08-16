@@ -6,14 +6,12 @@ website = input("Enter website to crawl: ")
 
 r = requests.get(website)
 
-f = open('source_code.txt', 'w')
-f.write(f"{r.text}")
-f.close()
+with open('source_code.txt', 'w') as f:
+ f.write(f"{r.text}")
 
-f = open('source_code.txt', 'r')
-
-if f.mode == 'r':
- contents = f.read()
+with open('source_code.txt', 'r') as f:
+ if f.mode == 'r':
+  contents = f.read()
 
 contents_split = contents.split("'src=")
 f = open('contents_list.txt', 'w')
