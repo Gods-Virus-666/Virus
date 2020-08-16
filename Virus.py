@@ -23,5 +23,5 @@ f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
  
-print("")
+print(f"{contents_split.sort()}")
 print("Complete")
