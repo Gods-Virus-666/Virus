@@ -20,6 +20,9 @@ contents_split = contents.split()
 f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
- 
-print(f"{contents_split.sort()}")
+
+sam = contents_split.sort()
+
+print(sam)
+
 print("Complete")
