@@ -17,9 +17,17 @@ if f.mode == 'r':
 
 contents_split = contents.split()
 
+f.close()
+
 f = open('contents_list.txt', 'w')
 f.write(f"{contents_split}")
 f.close()
 
-print(contents_split)
+
+f = open('contents_list.txt', 'r')
+
+if f.mode == 'r':
+  contents_split.sort()
+
+print(contents_split.sort())
 print("Complete")
